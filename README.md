@@ -39,14 +39,16 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] Mention two parts of Express that you learned about this week.
-
+        Express is a framework work that is above Node.js for web applications and services. Express creates a simple way to build out various pieces of software and is compatible with connect middleware.
 - [ ] Describe Middleware?
-
+        Middleware is software that acts as a link between two applications, databases, or other software depending on its level of deployment. It allows for functionality or information outside what a particular system or application would otherwise have access to, and can also be used to shorten codebases by providing routine functions.
 - [ ] Describe a Resource?
-
+        A resource is an object that contains information on its type, data, other resources, and what methods are called to access it. Resources are the fundamental components of a RESTful API.
 - [ ] What can the API return to help clients know if a request was successful?
-
+        A successful request should return the data the user sent for, and could include a success message. Error messages though are helpful though in knowing a request wasn't successful, and dividing those messages into system or user error is important for feedback.
 - [ ] How can we partition our application into sub-applications?
+        Routers are used to split an application into sub-applications. This is useful for making modular components that are easier to reason through, as well as later change.
+
 
 ## Minimum Viable Product
 
